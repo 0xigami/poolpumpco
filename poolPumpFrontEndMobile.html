@@ -111,7 +111,7 @@
     <img src="assets/logo.gif" alt="Logo" class="logo">
   </div>
   <!-- Connect button placed to the left of the help button -->
-  <img src="assets/connectedon.png" alt="Connect Button" class="connect">
+  <img src="assets/connectedOn.png" alt="Connect Button" class="connect">
   <!-- Help button fixed to the bottom right -->
   <img src="assets/helpOn.png" alt="Help Button" class="help">
   
@@ -135,8 +135,8 @@
         <p>Coming soon!</p>
         <!-- Pool buttons container added at the bottom -->
         <div class="pool-buttons">
-          <img src="assets/poolon.png" alt="Pool Button" class="pool-button">
-          <img src="assets/pumpon.png" alt="Pump Button" class="pump-button">
+          <img src="assets/poolOn.png" alt="Pool Button" class="pool-button">
+          <img src="assets/pumpOn.png" alt="Pump Button" class="pump-button">
         </div>
       </div>
     </div>
@@ -161,46 +161,46 @@
     // Connect button functionality: change image while pressed.
     var connectButton = document.querySelector('.connect');
     connectButton.addEventListener('mousedown', function() {
-      connectButton.src = "assets/connectedoff.png";
+      connectButton.src = "assets/connectedOff.png";
     });
     connectButton.addEventListener('mouseup', function() {
-      connectButton.src = "assets/connectedon.png";
+      connectButton.src = "assets/connectedOn.png";
     });
     connectButton.addEventListener('touchstart', function() {
-      connectButton.src = "assets/connectedoff.png";
+      connectButton.src = "assets/connectedOff.png";
     });
     connectButton.addEventListener('touchend', function() {
-      connectButton.src = "assets/connectedon.png";
+      connectButton.src = "assets/connectedOn.png";
     });
     
     // Pool button functionality: change image while pressed.
     var poolButton = document.querySelector('.pool-button');
     poolButton.addEventListener('mousedown', function() {
-      poolButton.src = "assets/pooloff.png";
+      poolButton.src = "assets/poolOff.png";
     });
     poolButton.addEventListener('mouseup', function() {
-      poolButton.src = "assets/poolon.png";
+      poolButton.src = "assets/poolOn.png";
     });
     poolButton.addEventListener('touchstart', function() {
-      poolButton.src = "assets/pooloff.png";
+      poolButton.src = "assets/poolOff.png";
     });
     poolButton.addEventListener('touchend', function() {
-      poolButton.src = "assets/poolon.png";
+      poolButton.src = "assets/poolOn.png";
     });
     
     // Pump button functionality: change image while pressed.
     var pumpButton = document.querySelector('.pump-button');
     pumpButton.addEventListener('mousedown', function() {
-      pumpButton.src = "assets/pumpoff.png";
+      pumpButton.src = "assets/pumpOff.png";
     });
     pumpButton.addEventListener('mouseup', function() {
-      pumpButton.src = "assets/pumpon.png";
+      pumpButton.src = "assets/pumpOn.png";
     });
     pumpButton.addEventListener('touchstart', function() {
-      pumpButton.src = "assets/pumpoff.png";
+      pumpButton.src = "assets/pumpOff.png";
     });
     pumpButton.addEventListener('touchend', function() {
-      pumpButton.src = "assets/pumpon.png";
+      pumpButton.src = "assets/pumpOn.png";
     });
     
     // Modal functionality: show modal when help button is clicked.
